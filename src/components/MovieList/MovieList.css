@@ -1,0 +1,53 @@
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 30px;
+	padding-left: 60px;
+}
+
+.movieList {
+	background-color: blue;
+	color: black;
+}
+
+.movieDiv {
+	padding-left: 60px;
+	padding-right: 70px;
+	padding-bottom: 40px;
+	display: flex;
+}
+
+.movieInfo {
+	padding-left: 50px;
+	padding-top: 0px;
+}
+
+.boldParagraph {
+	font-weight: bold;
+}
+
+.completeMovieDiv {
+  position: relative;
+  height: 300px;
+}
+
+.number {
+  margin: 10px;
+  position: absolute;
+  top: 50%;
+  padding: 5px;
+  transform: translateY(-50%);
+  background: #fc9f00;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: white;
+
+}
+
+.image {
+  margin-left: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
