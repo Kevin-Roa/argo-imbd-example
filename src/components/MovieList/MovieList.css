@@ -2,7 +2,7 @@
 	font-size: 30px;
 	font-weight: bold;
 	padding: 30px;
-	padding-left: 60px;
+	padding-left: 20px;
 }
 
 .movieList {
@@ -11,14 +11,13 @@
 }
 
 .movieDiv {
-	padding-left: 60px;
 	padding-right: 70px;
 	padding-bottom: 40px;
 	display: flex;
 }
 
 .movieInfo {
-	padding-left: 50px;
+	padding-left: 20px;
 	padding-top: 0px;
 }
 
@@ -29,6 +28,7 @@
 .completeMovieDiv {
   position: relative;
   height: 300px;
+  width: 700px;
 }
 
 .number {

@@ -11,27 +11,18 @@ import './App.css';
 function App() {
 
   return (
-	<Box sx={{  backgroundColor: '#ffffff', color: '#000000'}}>
-		<Grid container spacing={2}>
-		    <Grid item xs={12}>
-				<Header variant="global" title="Fresh Oranges" backgroundColor="#fc9f00" />
-			</Grid>
-			<Grid container direction="row" alignItems="stretch">
-				<Grid item xs={7}>
+		<div className="root">
+			<Header variant="global" title="Fresh Oranges" backgroundColor="#fc9f00" />
+			<div className="content">
+				<div className="movies">
 					<MovieList />
-				</Grid>
-				<Grid direction="column" sx={{ paddingLeft: '40px'}}>
-				<Grid item xs={5}>
+				</div>
+				<div className="panel">
 					<ReviewForm />
-				</Grid>
-				<Grid item xs={5}>
 					<NewsPanel />
-				</Grid>
-				</Grid>
-			</Grid>
-		</Grid>
-	</Box>
-
+				</div>
+			</div>
+		</div>
   )
 }
 
