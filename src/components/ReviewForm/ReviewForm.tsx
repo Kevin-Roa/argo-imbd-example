@@ -74,6 +74,7 @@ function ReviewForm() {
 					formMatrix={matrix}
 					titleVariant="h6"
 					width={400}
+					color="#fc9f00"
 				/>
 			</div>
 		</div>
